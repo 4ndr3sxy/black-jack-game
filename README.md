@@ -20,7 +20,7 @@ This is a little recreation of the Blackjack game using JavaScript programming l
 ## Image
 
 <img align="left" src="https://github.com/Cr1st14n0l101/images/blob/master/blackjack.png"></img>
-<br/><br/>
+<br><br/>
 
 ## Special Thanks
 
