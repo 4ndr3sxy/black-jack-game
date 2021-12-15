@@ -1,37 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="main.js"></script>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/main.css">
     <title>BLACKJACK</title>
 </head>
+
 <body>
-    <div class="tittle">
-        <h1>BLACKJACK</h1>
-        <button type="button" onclick="start()">Start</button>
-        <button type="button" onclick="reset()">Reset</button>
-    </div>
-    <div class="main">
-        <div class="dealer">
-            <h1>Dealer</h1>
-            <div class="cardsDealer">
-                <p id="cardsD"></p>
-            </div>
-        </div>
-        <div class="user">
-            <h1>User</h1>
-            <div class="cardsUser">
-                <p id="cardsU"></p>
-                <div class="score"><p id="scoretxt"></p></div>
-            </div>
-            <div class="forButtons">
-                <button type="button" onclick="giveMe()">Give me</button>
-                <button type="button" onclick="stop()">Stop</button>
-            </div>
-        </div>
-    </div>
+    <main class="main">
+        <title class="tittle">
+            <h1>BLACKJACK</h1>
+        </title>
+        <nav>
+            <button type="button" onclick="start()">Start</button>
+            <button type="button" onclick="reset()">Reset</button>
+        </nav>
+        <article>
+            <section class="dealer">
+                <h2>Dealer</h2>
+                <div class="cards-dealer">
+                    <p id="cardsD"></p>
+                </div>
+            </section>
+            <section class="user">
+                <h2>User</h2>
+                <div class="cards-user">
+                    <p id="cardsU"></p>
+                    <div class="score">
+                        <p id="scoretxt"></p>
+                    </div>
+                </div>
+                <div class="for-buttons">
+                    <button type="button" onclick="giveMe()">Give me</button>
+                    <button type="button" onclick="stop()">Stop</button>
+                </div>
+            </section>
+        </article>
+        <footer></footer>
+        <script type="text/javascript" src="js/main.js"></script>
+    </main>
 </body>
+
 </html>
